@@ -36,7 +36,10 @@ function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center text-xl font-bold text-white font-header" onClick={handleLinkClick}>
-            Spatial Mods
+          <img src="images/logo-overlay.png" 
+          alt="Spatial Mods" 
+          className="mx-auto mb-8 max-w-full h-auto"
+        />
           </Link>
           <div className="md:hidden">
             <button 
